@@ -1,5 +1,5 @@
-In the project directory, you can run:
-`npm i`
+In the project directory, you can run: <br/>
+`npm i` <br/>
 `npm start`
 
 Runs the app in the development mode.\

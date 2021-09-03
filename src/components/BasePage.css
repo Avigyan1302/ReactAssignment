@@ -1,0 +1,118 @@
+.content{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloc-tabs {
+    display: flex;
+    
+}
+
+.tabs {
+    cursor: pointer;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(158, 157, 157);
+    color: white;
+    width: 100%;
+}
+  
+.active-tabs  {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.inactive{
+    display: none;
+}
+
+.top{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.values{
+    padding: 10px;
+}
+
+.num{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+}
+.el{
+    padding: 5px;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 398px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.image{
+    width:7.5%;
+    margin-right: auto;
+    cursor: pointer;
+}
+.image:hover{
+    border: 1px solid red;
+}
+.image:active{
+    border: 2px solid red;
+    background-color: gray;
+}
+.container .second{
+    display: flex;
+    flex-direction: column;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row:nth-child(2n+1){
+    background-color: rgb(216, 216, 216);
+}
+.row:nth-child(1){
+    font-weight: bold;
+    color: white;
+    background-color: rgb(158, 157, 157);
+}
+.row:nth-child(2n){
+    background-color: white;
+}
+
+
+
+.column{
+    display: flex;
+    padding: 15px;
+    width:100%;
+    justify-content: center;
+}
